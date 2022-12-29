@@ -2,7 +2,7 @@
 
 $primary-color:hsl(300, 43%, 22%);
 $secondary-color:hsl(333, 80%, 67%);
-$Dark-Gray: hsl(303, 10%, 53%);
+$Dark-Gray: rgba(145, 111, 143, 0.532);
 $Light-Gray: hsl(300, 24%, 96%);
 $White: hsl(0, 0%, 100%);
 
@@ -16,6 +16,8 @@ html{
 }
 
 body{
+    background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
     font-family: 'League Spartan', sans-serif;
     height: 100vh;
 }

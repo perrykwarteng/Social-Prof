@@ -14,6 +14,7 @@
         }
         p{
             font-size: 1.5rem;
+            font-weight: 500;
             color: $Dark-Gray;
             text-align: center;
         }
@@ -80,7 +81,7 @@
     }
 
     .testimonial-text{
-        margin-top: 2rem;
+        margin-top: 1rem;
         p{
             color: $Light-Gray;
             font-size: 1.5rem;
@@ -90,7 +91,7 @@
 
 @media screen and (min-width:768px) {
     .social{
-        padding: 7rem;
+        padding: 4rem;
     }
     .hero{
         display: flex;
@@ -145,12 +146,13 @@
     }
 
     .testimonials{
-        height: 50vh;
+        height: 40vh;
         display: flex;
         margin: 4rem 0rem 0rem 0rem;
         position: relative;
 
         .testimonial{
+            padding: 2rem;
             width: 30%;
         }
         .testimonial-1{

@@ -10,6 +10,8 @@ html {
 }
 
 body {
+  background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
   font-family: "League Spartan", sans-serif;
   height: 100vh;
 }
@@ -35,13 +37,14 @@ body {
 }
 .social .hero p {
   font-size: 1.5rem;
-  color: hsl(303deg, 10%, 53%);
+  font-weight: 500;
+  color: rgba(145, 111, 143, 0.532);
   text-align: center;
 }
 
 .rate {
   margin: 1.5rem 0rem;
-  background: hsl(303deg, 10%, 53%);
+  background: rgba(145, 111, 143, 0.532);
   width: 100%;
   height: 6rem;
   display: flex;
@@ -92,7 +95,7 @@ body {
   color: hsl(333deg, 80%, 67%);
 }
 .testimonial .testimonial-text {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .testimonial .testimonial-text p {
   color: hsl(300deg, 24%, 96%);
@@ -101,7 +104,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .social {
-    padding: 7rem;
+    padding: 4rem;
   }
   .hero {
     display: flex;
@@ -147,12 +150,13 @@ body {
     right: 0;
   }
   .testimonials {
-    height: 50vh;
+    height: 40vh;
     display: flex;
     margin: 4rem 0rem 0rem 0rem;
     position: relative;
   }
   .testimonials .testimonial {
+    padding: 2rem;
     width: 30%;
   }
   .testimonials .testimonial-1 {
