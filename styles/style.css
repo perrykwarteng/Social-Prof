@@ -11,6 +11,7 @@ html {
 
 body {
   font-family: "League Spartan", sans-serif;
+  height: 100vh;
 }
 
 .attribution {
@@ -22,7 +23,24 @@ body {
   color: hsl(228deg, 45%, 44%);
 }
 
+.social {
+  padding: 2rem;
+}
+.social .hero h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: hsl(300deg, 43%, 22%);
+  text-align: center;
+  margin: 2.5rem 0rem 1rem 0rem;
+}
+.social .hero p {
+  font-size: 1.5rem;
+  color: hsl(303deg, 10%, 53%);
+  text-align: center;
+}
+
 .rate {
+  margin: 1.5rem 0rem;
   background: hsl(303deg, 10%, 53%);
   width: 100%;
   height: 6rem;
@@ -49,6 +67,7 @@ body {
   width: 100%;
   padding: 2rem;
   border-radius: 5px;
+  margin: 2rem 0rem;
 }
 .testimonial .testimonial-profile {
   display: flex;
@@ -78,4 +97,76 @@ body {
 .testimonial .testimonial-text p {
   color: hsl(300deg, 24%, 96%);
   font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .social {
+    padding: 7rem;
+  }
+  .hero {
+    display: flex;
+  }
+  .hero .hero-text {
+    flex: 1 2 10rem;
+  }
+  .hero .hero-text h2 {
+    font-size: 4rem;
+    line-height: 1;
+    text-align: left;
+  }
+  .hero .hero-text p {
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+  }
+  .hero .rates {
+    margin: 2rem 0rem 0rem 8rem;
+    flex: 2.5 1 20rem;
+    position: relative;
+  }
+  .hero .rates .rate {
+    flex-direction: row;
+    width: 60%;
+  }
+  .hero .rates .rate .star-img {
+    margin-right: 2rem;
+  }
+  .hero .rates .rate-1 {
+    position: absolute;
+    top: 0;
+    right: 35%;
+  }
+  .hero .rates .rate-2 {
+    position: absolute;
+    top: 30%;
+    right: 20%;
+  }
+  .hero .rates .rate-3 {
+    position: absolute;
+    top: 60%;
+    right: 0;
+  }
+  .testimonials {
+    height: 50vh;
+    display: flex;
+    margin: 4rem 0rem 0rem 0rem;
+    position: relative;
+  }
+  .testimonials .testimonial {
+    width: 30%;
+  }
+  .testimonials .testimonial-1 {
+    position: absolute;
+    top: 0;
+  }
+  .testimonials .testimonial-2 {
+    position: absolute;
+    top: 10%;
+    right: 34%;
+  }
+  .testimonials .testimonial-3 {
+    position: absolute;
+    top: 20%;
+    right: 0;
+  }
 }/*# sourceMappingURL=style.css.map */
