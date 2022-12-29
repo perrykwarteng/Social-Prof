@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+$primary-color:hsl(300, 43%, 22%);
+$secondary-color:hsl(333, 80%, 67%);
+$Dark-Gray: hsl(303, 10%, 53%);
+$Light-Gray: hsl(300, 24%, 96%);
+$White: hsl(0, 0%, 100%);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

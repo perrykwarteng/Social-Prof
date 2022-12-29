@@ -1,0 +1,25 @@
+@import 'global';
+
+.rate{
+    background: $Dark-Gray;
+    width: 100vw;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+    .star-img{
+        margin: 5px 0px;
+
+        span{
+            margin: 0px 5px;
+        }
+    }
+
+    .rate-text{
+        color: $primary-color;
+        font-size: 1.5rem;
+    }
+}
